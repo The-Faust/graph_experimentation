@@ -14,7 +14,9 @@ def main():
 
     graph.print_edges()
     graph.print_vertices()
-    graph.print_neighbours("b")
+
+    for vertex in graph.vertices:
+        graph.print_neighbours(vertex)
 
     print("Shortest way from point a to e is: ", *graph.dijkstra("a", "e"))
 
