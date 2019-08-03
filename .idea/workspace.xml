@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f80e4e99-f36d-44b9-aba8-325669110e1b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/graphs/graph_algorithms/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/graphs_n_algs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/graphs_n_algs.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/BasicGraph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/BasicGraph.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/_Dijkstra.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/graph_algorithms/_Dijkstra.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graphs/graph_algorithms/_BellmanFord.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/graph_algorithms/_BellmanFord.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/use_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_tests.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -92,7 +87,8 @@
       <option name="presentableId" value="Default" />
       <updated>1553457390033</updated>
       <workItem from="1564183995494" duration="4351000" />
-      <workItem from="1564609409261" duration="936000" />
+      <workItem from="1564609409261" duration="5285000" />
+      <workItem from="1564854580557" duration="4497000" />
     </task>
     <servers />
   </component>
@@ -113,6 +109,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/graph_experimentation$use_tests.coverage" NAME="use_tests Coverage Results" MODIFIED="1564609623179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/graph_experimentation$use_tests.coverage" NAME="use_tests Coverage Results" MODIFIED="1564860666825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

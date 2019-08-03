@@ -6,11 +6,12 @@ that it is much easier to take the algorithms separately from the structure
 """
 from collections import deque
 from graphs import inf
+from graphs.graph_algorithms import source_dest_in_graph
 
 
 class _Dijkstra(object):
     def dijkstra(self, source, destination):
-        assert source in self.vertices, "source node isn't in graph"
+        assert source_dest_in_graph(self, source, destination)
 
         # 1. Mark all nodes unvisited and store them.
         # 2. Set the distance to zero for our initial node

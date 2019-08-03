@@ -18,7 +18,8 @@ def main():
     for vertex in graph.vertices:
         graph.print_neighbours(vertex)
 
-    print("Shortest way from point a to e is: ", *graph.dijkstra("a", "e"))
+    print("Shortest way from point a to e is: ", *graph.dijkstra("a", "e"), " using Dijkstra.")
+    print("Shortest distance between a and e in graph is: ", graph.bellman_ford("a", "e"), " using BellmanFord")
 
 
 if __name__=="__main__":

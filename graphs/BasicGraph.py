@@ -4,10 +4,11 @@ Simple graph where an edge is a set of 2 vertices with a weight
 """
 from graphs import make_edge, generate_vertices, generate_neighbours
 from graphs.graph_algorithms._Dijkstra import _Dijkstra
+from graphs.graph_algorithms._BellmanFord import _BellmanFord
 from graphs._GraphUtilities import _GraphUtilities
 
 
-class BasicGraph(_Dijkstra, _GraphUtilities):
+class BasicGraph(_Dijkstra, _BellmanFord, _GraphUtilities):
     def __init__(self, edges):
         invalid_edges = [edge for edge in edges if len(edge) not in [2, 3]]
         if invalid_edges:
