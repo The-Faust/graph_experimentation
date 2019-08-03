@@ -14,6 +14,7 @@ def main():
 
     graph.print_edges()
     graph.print_vertices()
+    graph.print_distanceMatrix()
 
     for vertex in graph.vertices:
         graph.print_neighbours(vertex)

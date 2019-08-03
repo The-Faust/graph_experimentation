@@ -9,7 +9,7 @@ from graphs import inf
 from graphs.graph_algorithms import source_dest_in_graph
 
 
-class _Dijkstra(object):
+class Dijkstra(object):
     def dijkstra(self, source, destination):
         assert source_dest_in_graph(self, source, destination)
 

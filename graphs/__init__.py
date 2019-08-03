@@ -14,6 +14,17 @@ def generate_vertices(edges_list):
 
 def generate_neighbours(vertices_list, edges_list):
     neighbours = {vertex: set() for vertex in vertices_list}
+
     for edge in edges_list:
         neighbours[edge.start].add((edge.end, edge.cost))
+
     return neighbours
+
+
+def get_vertices_index_book(graph):
+    vertices_index_book = dict()
+
+    for i, vertex in enumerate(graph.vertices):
+        vertices_index_book[vertex] = i
+
+    return vertices_index_book

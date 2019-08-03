@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f80e4e99-f36d-44b9-aba8-325669110e1b" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/graphs/graph_algorithms/_BellmanFord.py" beforeDir="false" afterPath="$PROJECT_DIR$/graphs/graph_algorithms/_BellmanFord.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/use_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/use_tests.py" afterDir="false" />
-    </list>
+    <list default="true" id="f80e4e99-f36d-44b9-aba8-325669110e1b" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,7 +84,7 @@
       <updated>1553457390033</updated>
       <workItem from="1564183995494" duration="4351000" />
       <workItem from="1564609409261" duration="5285000" />
-      <workItem from="1564854580557" duration="4497000" />
+      <workItem from="1564854580557" duration="6249000" />
     </task>
     <servers />
   </component>
@@ -109,6 +105,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/graph_experimentation$use_tests.coverage" NAME="use_tests Coverage Results" MODIFIED="1564860666825" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/graph_experimentation$use_tests.coverage" NAME="use_tests Coverage Results" MODIFIED="1564862093956" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
